@@ -1,0 +1,83 @@
+@media screen and (min-width: 1024px)
+{
+.functioning
+{
+display: flex;
+justify-content: space-evenly;
+}
+
+.title-pages-accueil
+{
+text-align: center;
+}
+
+.footer-responsive
+{
+display: flex;
+justify-content: space-evenly;
+}
+
+}
+
+@media screen and (min-width: 1400px)
+{
+
+.restaurant-all
+{
+display: flex;
+justify-content: space-evenly;
+}
+
+.restaurants
+{
+height: 500px;
+width: 500px;
+}
+
+.restaurants-pictures 
+{
+height: 400px;
+}
+
+}
+
+@media screen and (min-width: 1300px)
+{
+
+.menu-picture
+{
+max-width: 1200px;
+max-height: 600px;
+}
+
+.menu
+{
+text-align: -webkit-center;
+}
+
+.card-list
+{
+max-width: 1200px;
+height: 70px;
+}
+
+.menu-title
+{
+display: unset;
+}
+
+.button-description-commander 
+{
+height: 100px;
+font-size: 25px;
+max-width: 500px;
+}
+}
+
+@media screen and (max-width: 1300px)
+{
+.menu-picture
+{
+max-height: 400px;
+}
+}

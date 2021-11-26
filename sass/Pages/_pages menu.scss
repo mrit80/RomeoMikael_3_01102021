@@ -1,0 +1,163 @@
+.menu
+{
+background-color: #f6f6f6;    
+}
+
+.menu-all
+{
+background-color: #f6f6f6;
+width: 100%;
+position: relative;
+margin-block-start: -50px;
+border-radius: 20px 20px 0px 0px;
+}
+
+.menu-picture
+{
+object-fit: cover;
+width: 100%;
+}
+
+.menu-title
+{
+font-family: Shrikhand, sans-serif;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;    
+}
+
+.title
+{
+font-weight: 300;
+font-size: 20px;
+margin-left: 10px;
+}
+
+.title-pages-menu
+{
+font-family: Shrikhand, sans-serif;   
+}
+
+.menu-title-heart
+{
+font-size: 30px;
+padding: 10px;
+}
+
+.underline
+{
+width: 50px;
+border: solid 2px $color-tertiary;
+margin-left: 10px;
+margin-block-start: -12px;
+}
+
+.starter
+{
+animation: block-card 2s ease-in-out;
+}
+
+.dish
+{
+animation: block-card 5s ease-in-out;
+}
+
+.dessert
+{
+animation: block-card 8s ease-in-out;
+}
+
+@keyframes block-card {
+from {
+opacity: 0;
+}
+to {
+opacity: 1;
+}
+}
+
+.card-list
+{
+background-color: white;
+margin: 10px;
+padding: 10px;
+border-radius: 20px;
+box-shadow: 2px 2px 4px #d2d2d2;
+transition: padding-right 150ms ease-in-out;
+}
+
+.card-list:hover 
+{
+padding-right: 80px;
+  }
+  .card-list:hover .ok {
+    opacity: 1;
+  }
+  .card-list:hover .ok-ico {
+    transform: rotate(360deg);
+  }
+
+.card-list-title
+{
+font-size: 18px;
+margin: 0;
+white-space: nowrap;
+text-overflow: ellipsis;
+overflow: hidden;
+}
+
+.card-list-description
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-block-start: 10px;
+}
+
+.card-list-description-title
+{
+margin: 0;
+white-space: nowrap;
+text-overflow: ellipsis;
+overflow: hidden;    
+}
+
+.ok
+{
+background-color :#99E2D0;
+right: 10px;
+margin-top: -61px;
+width: auto;
+height: auto;
+position: absolute;
+padding: 26px;
+border-radius: 0px 20px 20px 0px;
+opacity: 0;
+transition: transform 400ms ease-in-out;
+}
+
+.ok-ico
+{
+color: white;
+transition: transform 500ms ease-in-out; 
+font-size: 20px;   
+}
+
+@media screen and (min-width: 1300px)
+{
+.ok
+{
+display: flex;
+justify-content: flex-end;
+right: 10px;
+margin-top: -61px;
+margin-left: -10px;
+width: 1225px;
+border-radius: 20px 20px 20px 20px;
+position: inherit;
+padding: 35px;
+opacity: 0;
+transition: transform 400ms ease-in-out;
+}
+}
